@@ -15,9 +15,7 @@ public class GameManager : MonoBehaviour
         InitializeStage();
     }
 
-    /// <summary>
     /// ブロック配置の初期化
-    /// </summary>
     private void InitializeStage()
     {
         var blocks = new List<Block>();
